@@ -5,7 +5,7 @@ const crypto = require('crypto');
 
 const proxysocket = require('proxysocket');
 
-const config = require('./config');
+const config = require('../config');
 
 const socksip = config.socksip;
 const socksport = config.socksport;

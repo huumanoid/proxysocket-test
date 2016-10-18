@@ -7,7 +7,7 @@ const proxysocket = require('proxysocket');
 const rmdir = require('rmdir');
 
 const ClientTest = require('./client-test');
-const config = require('./config');
+const config = require('../config');
 const check = require('./check');
 
 rmdir(config.outdir, () => {

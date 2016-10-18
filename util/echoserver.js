@@ -1,9 +1,9 @@
 'use strict';
 const net = require('net');
-const config = require('./config');
+const config = require('../config');
 
-const serverip = config.echoip;
-const serverport = config.echoport;
+const serverip = config.ip;
+const serverport = config.port;
 
 function echoServer() {
 	const server = net.createServer((c) => {

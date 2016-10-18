@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "proxysocket": "^0.2.0",
     "rmdir": "^1.2.0"
   }
 }
