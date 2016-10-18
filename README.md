@@ -1,5 +1,11 @@
 # proxysocket-test
 
+Before running tests, run
+```shell
+npm install
+```
+**Note: Don't forget to install particular version of proxysocket for test. By default, npm version installed.**
+
 To run pipes test, do following:
 
 1) setup socks proxy. 
