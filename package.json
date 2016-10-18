@@ -1,0 +1,14 @@
+{
+  "name": "proxysocket-test",
+  "version": "0.0.0",
+  "description": "test suites for proxysocket",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rmdir": "^1.2.0"
+  }
+}
