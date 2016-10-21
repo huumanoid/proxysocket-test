@@ -2,8 +2,8 @@
 const net = require('net');
 const config = require('../config');
 
-const serverip = config.ip;
-const serverport = config.port;
+const serverip = config.echoip;
+const serverport = config.echoport;
 
 function echoServer() {
 	const server = net.createServer((c) => {
